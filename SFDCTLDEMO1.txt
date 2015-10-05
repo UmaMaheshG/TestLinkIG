@@ -1,0 +1,111 @@
+#TestLink Projects
+-------------------------------------------------------------------------------------
+Project Id :4301 Project Name:Admin Console 3X
+Project Id :83003 Project Name:Admin Console 4.0
+Project Id :275867 Project Name:AdminConsole 4.1
+Project Id :344205 Project Name:AdminConsole 4.2
+Project Id :4964 Project Name:Automation
+Project Id :57348 Project Name:Box 4.0
+Project Id :110191 Project Name:Crypto
+Project Id :349237 Project Name:Crypto 3.6
+Project Id :349235 Project Name:Crypto 4.2
+Project Id :239073 Project Name:DB Gateway
+Project Id :57335 Project Name:Demo3
+Project Id :100113 Project Name:DLP 4.0
+Project Id :4961 Project Name:EXO - Exchange Online
+Project Id :4963 Project Name:Gmail & Google Apps
+Project Id :343205 Project Name:IUC
+Project Id :77796 Project Name:MultiORG 4.0
+Project Id :4300 Project Name:Salesforce
+Project Id :252941 Project Name:SFDC
+Project Id :351683 Project Name:SFDC-TLDEMO
+Project Id :333345 Project Name:SharePoint
+Project Id :252939 Project Name:Success Factor
+Project Id :4962 Project Name:Tokenizations
+Project Id :349239 Project Name:Tokn - 4.2
+Project Id :318589 Project Name:Yammer
+#TestLink Test Plans:
+-------------------------------------------------------------------------------------
+TestPlan Id :352155 TestPlan Name:TLDEMO
+#TestLink Test Suites
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+TestSuite Name:Accounts      TestSutieId:351685
+TestCase Id :351687 TestCase Name:ACC-01:Verify the login with invalid credentials
+TestCase Id :351693 TestCase Name:ACC-02:Verify the login with valid credentials
+TestCase Id :351699 TestCase Name:ACC-03:Verify the Accounts HomePage
+TestCase Id :351705 TestCase Name:ACC-04:Verify New Account page
+TestCase Id :351711 TestCase Name:ACC-05:Verify the validation messages while Saving the Account without providing any data in fields
+TestCase Id :351717 TestCase Name:ACC-06:Verify the Account details in Proxy and Direct urls when saved the account with mandatory fie
+TestCase Id :351723 TestCase Name:ACC-07:Verify the Account details in Proxy and Direct urls when saved the account with all fields in
+TestCase Id :351729 TestCase Name:ACC-07.1:Verify the State value.
+TestCase Id :351735 TestCase Name:ACC-08:Verify 'Save & New' button without providing data in any fields
+TestCase Id :351741 TestCase Name:ACC-09:Verify 'Save & New' button with data in mandatory fields
+TestCase Id :351747 TestCase Name:ACC-10:Verify 'Save & New' button with valid data
+TestCase Id :351753 TestCase Name:ACC-11:Verify Cancel functionality in New Account form page
+TestCase Id :351759 TestCase Name:ACC-12:Verify the Parent Account LookUp functionality
+TestCase Id :351765 TestCase Name:ACC-13:Verify the New Account in LookUp
+TestCase Id :351771 TestCase Name:ACC-14:Verify the New Account in LookUp when mandatory fields are empty
+TestCase Id :351777 TestCase Name:ACC-15:Verify the New Account in LookUp when mandatory fields are not empty
+TestCase Id :351783 TestCase Name:ACC-16:Verify the Parent Account LookUp functionality
+TestCase Id :351789 TestCase Name:ACC-17:Verify the Parent Account LookUp functionality when a parent account is already selected
+TestCase Id :351795 TestCase Name:ACC-18:Verify the functionality of Phone/Mobile/Fax with alphanumeric
+TestCase Id :351801 TestCase Name:ACC-19:Verify the functionality of Phone/Mobile/Fax with more than 10digits
+TestCase Id :351807 TestCase Name:ACC-20:Verify the functionality of Phone/Mobile/Fax with 10 digits
+TestCase Id :351813 TestCase Name:ACC-21:Verify the functionality of Website field
+TestCase Id :351819 TestCase Name:ACC-22:Verify functionality of Employees field for alphabets
+TestCase Id :351825 TestCase Name:ACC-23:Verify functionality of Employees field for data more than max size
+TestCase Id :351831 TestCase Name:ACC-24:Verify functionality of Employees field data <= max size
+TestCase Id :351837 TestCase Name:ACC-25:Verify functionality of Annual Revenue field length > max size
+TestCase Id :351843 TestCase Name:ACC-26:Verify functionality of Annual Revenue field length <= max size
+TestCase Id :351849 TestCase Name:ACC-27:Verify Address Information
+TestCase Id :351855 TestCase Name:ACC-28:Verify Address Information length more than max size
+TestCase Id :351861 TestCase Name:ACC-29:Verify the Account details in Recent Items
+TestCase Id :351867 TestCase Name:ACC-30:Verify the Accounts updates in Chatter(when enabled)
+TestCase Id :351873 TestCase Name:ACC-31:Verify Edit button functionality
+TestCase Id :351879 TestCase Name:ACC-32:Verify Edit button functionality when all fields exists
+TestCase Id :351885 TestCase Name:ACC-33:Verify inline edit functionality
+TestCase Id :351891 TestCase Name:ACC-34:Verify Edit button functionality for mandatory fields
+TestCase Id :351897 TestCase Name:ACC-035:Verify Deletion of Account from View
+TestCase Id :351903 TestCase Name:ACC-036:Verify Deletion of Account from Account Details page
+TestCase Id :351909 TestCase Name:ACC-037:Verify bulk Deletion of Accounts
+TestCase Id :351915 TestCase Name:ACC-038:Verify the cancellation of Delete functionality
+TestCase Id :351921 TestCase Name:ACC-039:Verify the creation of Account from 'Quick Create'.
+TestCase Id :351927 TestCase Name:ACC-040:Verify Attachments from Relative list
+TestCase Id :351933 TestCase Name:ACC-041:Verify View Accounts
+TestCase Id :351939 TestCase Name:ACC-042:Verify the sorting functionality of Accounts based on the configured schemes
+TestCase Id :351945 TestCase Name:ACC-043:Verify the page navigation of Accounts in Views
+TestCase Id :351951 TestCase Name:ACC-044:Verify the page navigation of Accounts in Views
+TestCase Id :351957 TestCase Name:ACC-045:Verify the creation of New Contact from the Relative list in any of the Account record detai
+TestCase Id :351963 TestCase Name:ACC-046:Verify the display of Contact details added from Relative list in Account record details
+TestCase Id :351969 TestCase Name:ACC-047:Verify the creation of New Task from the Relative list in any of the Account record details
+TestCase Id :351975 TestCase Name:ACC-048:Verify the creation of New Opportunity from the Relative list in any of the Account record d
+TestCase Id :351981 TestCase Name:ACC-049:Verify the display of Opportunity details added from Relative list in Account record details
+TestCase Id :351987 TestCase Name:ACC-050:Verify the creation of New Case from the Relative list in any of the Account record details
+TestCase Id :351993 TestCase Name:ACC-051:Verify the display of Case details added from Relative list in Account record details
+TestCase Id :351999 TestCase Name:ACC-052:Verify the functionality of Website field with tilde (~) symbol as a part of text
+TestCase Id :352005 TestCase Name:ACC-053:Verify creating a record with date format as 01/02/2001
+TestCase Id :352011 TestCase Name:ACC-054:Verify Help and Training link
+TestCase Id :352017 TestCase Name:ACC-056:Verify no duplicate record is created for the same record after clicking on Save button
+TestCase Id :352023 TestCase Name:ACC-057:Verify clicking on login button in help and training link
+TestCase Id :352029 TestCase Name:ACC-058:Verify search for Merge Accounts
+TestCase Id :352035 TestCase Name:ACC-059:Verify fields are encrypted in tier1 crm app
+TestCase Id :352041 TestCase Name:ACC-060:Verify Compatibility mode while viewing SFDC pages through gateway
+TestCase Id :352047 TestCase Name:ACC-61:Verify Website field Encryption/decryption
+TestCase Id :352053 TestCase Name:ACC-62:Verify Data decryption in the respective fields while performing inline edit
+TestCase Id :352059 TestCase Name:ACC-63:Verify the Merge Accounts functionality
+TestCase Id :352065 TestCase Name:ACC-64:Verify the Merge Accounts functionality of Find Accounts button
+TestCase Id :352071 TestCase Name:ACC-65:Verify the Merge Accounts functionality of cancel button
+TestCase Id :352077 TestCase Name:ACC-66:Verify the Merge Accounts functionality by searching the records
+TestCase Id :352083 TestCase Name:ACC-67:Verify the Merge Accounts functionality by merging the accounts when we select more than 3 re
+TestCase Id :352089 TestCase Name:ACC-68:Verify the Merge Accounts functionality of Previous button
+TestCase Id :352095 TestCase Name:ACC-69:Verify the Merge Accounts functionality by merging the accounts
+TestCase Id :352101 TestCase Name:ACC-70:Verify data decryption by saving encrypted content through proxy
+TestCase Id :352107 TestCase Name:ACC-71:Verify the display of complete text entered in new line in description field.
+TestCase Id :352113 TestCase Name:ACC-72:Verify salesforce re-login after closing Help & Training page
+TestCase Id :352119 TestCase Name:ACC-73:Verify Website field is properly decrypted or not by giving complex URL with combinations of
+TestCase Id :352125 TestCase Name:ACC-74:Verify the edit functionality from the view mode.
+TestCase Id :352131 TestCase Name:ACC-75:Verify the Accounts updates in Accounts page(when Chatter enabled)
+TestCase Id :352137 TestCase Name:ACC-76:Verify the  functionality back button and farword button
+TestCase Id :352143 TestCase Name:ACC-77:Verifi showfeed/hide functionality
+TestCase Id :352149 TestCase Name:ACC-2.1:Verify the ProxyURL & SalesforceURL login page is displaying correctly.
